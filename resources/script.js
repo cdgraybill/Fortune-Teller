@@ -21,6 +21,8 @@ function decideFortune() {
     return fortune[decider];
 }
 
-console.log(`Your lucky number is: ${luckyNumber}`);
-console.log(`Your fortune: ${decideFortune()}`);
-console.log(`Is today a lucky day? ${luckyDay}`);
+function displayFortune() {
+    console.log(`Your lucky number is: ${luckyNumber}`);
+    console.log(`Your fortune: ${decideFortune()}`);
+    console.log(`Is today a lucky day? ${luckyDay}`);
+}
