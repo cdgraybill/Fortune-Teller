@@ -1,11 +1,8 @@
-let luckyNumber = Math.floor(Math.random() * 100);
-let luckyDay = decideLuckyDay();
-
 function decideLuckyDay() {
     let decider = Math.random();
 
     if (decider > 0.5) {
-        return true;
+        return "true";
     } else {
         return false;
     }
@@ -21,8 +18,12 @@ function decideFortune() {
     return fortune[decider];
 }
 
+function decideLuckyNumber() {
+    return Math.floor(Math.random() * 1000);
+}
+
 function displayFortune() {
-    console.log(`Your lucky number is: ${luckyNumber}`);
+    console.log(`Your lucky number is: ${decideLuckyNumber()}`);
     console.log(`Your fortune: ${decideFortune()}`);
-    console.log(`Is today a lucky day? ${luckyDay}`);
+    console.log(`Is today a lucky day? ${decideLuckyDay()}`);
 }
