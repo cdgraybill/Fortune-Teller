@@ -1,5 +1,10 @@
 #titles {
+    margin-top: 1rem;
     text-align: center;
+}
+
+h2 {
+    font-style: italic;
 }
 
 body {
@@ -8,9 +13,12 @@ body {
 
 #button {
     margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     display: block;
 }
 
 p {
     text-align: center;
+    font-weight: 500;
 }

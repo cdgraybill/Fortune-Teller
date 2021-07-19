@@ -27,3 +27,7 @@ function displayFortune() {
     document.getElementById("fortune").innerHTML = `Your fortune: ${decideFortune()}`;
     document.getElementById("lucky-day").innerHTML = `Is today a lucky day? ${decideLuckyDay()}`;
 }
+
+function changeButtonText() {
+    document.getElementById("button").innerHTML = "Receive another fortune...";
+}
