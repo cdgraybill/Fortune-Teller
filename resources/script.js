@@ -26,8 +26,4 @@ function displayFortune() {
     document.getElementById("lucky-number").innerHTML = `Your lucky number is: ${decideLuckyNumber()}`;
     document.getElementById("fortune").innerHTML = `Your fortune: ${decideFortune()}`;
     document.getElementById("lucky-day").innerHTML = `Is today a lucky day? ${decideLuckyDay()}`;
-
-    console.log(`Your lucky number is: ${decideLuckyNumber()}`);
-    console.log(`Your fortune: ${decideFortune()}`);
-    console.log(`Is today a lucky day? ${decideLuckyDay()}`);
 }
