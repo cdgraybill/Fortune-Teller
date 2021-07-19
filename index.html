@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="resources/index.css" type="text"/>
-    <title>Fortune</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="resources/index.css" />
+    <title>Fortune Teller</title>
+  </head>
+  <body>
     <header>
+      <div id="titles">
         <h1>Fortune Teller</h1>
         <h2>Your fate lies in the hands of this web page...</h2>
+      </div>
     </header>
 
-    <button id="button" onclick="displayFortune()">Hear your fortune...</button>
+    <div>
+      <button id="button" onclick="displayFortune()">
+        Hear your fortune...
+      </button>
 
-    <p id="lucky-number"></p>
-    <p id="fortune"></p>
-    <p id="lucky-day"></p>
+      <p id="lucky-number"></p>
+      <p id="fortune"></p>
+      <p id="lucky-day"></p>
+    </div>
 
     <script link src="resources/script.js"></script>
-</body>
+  </body>
 </html>
